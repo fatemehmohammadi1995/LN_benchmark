@@ -6,7 +6,8 @@ from transformers import TextStreamer
 from unsloth.chat_templates import get_chat_template
 from unsloth.chat_templates import standardize_sharegpt
 
-bm_dataset= pd.read_excel("C:/Users/Occhipinti/OneDrive - Università degli Studi di Milano/Leonardo/full_code/Data/standardized_bm_dataset.xlsx")
+bm_dataset = pd.read_excel("/leonardo_work/EUHPC_R04_192/fmohamma/standardized_bm_dataset.xlsx")
+
 
 
 list_of_labels= ['normal', 'hatespeech','hatespeech,stereotype', 'stereotype', 'toxic', 'offensive' ]
