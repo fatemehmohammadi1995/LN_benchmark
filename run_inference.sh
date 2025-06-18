@@ -12,7 +12,7 @@
 #SBATCH --error=logs/%x-%j.log
 
 # Load your environments
-source .venvln/bin/activate
+source .venv/bin/activate
 
 for arg in "$@"
 do
