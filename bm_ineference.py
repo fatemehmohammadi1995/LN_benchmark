@@ -6,7 +6,7 @@ from transformers import TextStreamer
 from unsloth.chat_templates import get_chat_template
 from unsloth.chat_templates import standardize_sharegpt
 
-bm_dataset = pd.read_excel("/leonardo_work/EUHPC_R04_192/fmohamma/standardized_bm_dataset.xlsx")
+bm_dataset = pd.read_excel("standardized_bm_dataset.xlsx")
 
 
 
